@@ -1,8 +1,8 @@
 public enum Rozmiar {
-    MAŁY,
-    ŚREDNI,
-    DUŻY,
-    EKSTRA_DUŻY
+    MALY,
+    SREDNI,
+    DUZY,
+    EKSTRA_DUZY
 }
 
 
