@@ -25,6 +25,7 @@ public class First {
         double x = 4;
         double y = sqrt(x);
 
+
         System.out.println(y);
         boolean zrobione = true;
         int wynik = (liczba + liczba3) * liczba2;
