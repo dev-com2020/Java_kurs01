@@ -28,7 +28,8 @@ public class Five {
         System.out.println(greet == greet2 ); // porównujemy adresu w pamięci!
         System.out.println("Czekaj" == greet2 ); // porównujemy adresu w pamięci!
 
-        System.out.println("");
+        System.out.println("dsnfbsjnfdfi");
+
 
 
 
