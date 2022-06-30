@@ -22,9 +22,15 @@ public class Five {
         String greet = "Cześć!"; // chcę zmienić na słowo CZEKAJ
         greet = greet.substring(0,3) + "kaj"; // podłańcuch
         System.out.println(greet);
+        String greet2 = "Czekaj";
 
         System.out.println("czekaj".equalsIgnoreCase(greet)); // porównujemy zawartość
-        System.out.println(4 == 4 ); // porównujemy adresu w pamięci!
+        System.out.println(greet == greet2 ); // porównujemy adresu w pamięci!
+        System.out.println("Czekaj" == greet2 ); // porównujemy adresu w pamięci!
+
+        System.out.println("");
+
+
 
 
 
