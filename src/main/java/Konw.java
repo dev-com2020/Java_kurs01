@@ -9,22 +9,21 @@ import java.util.Scanner;
 public class Konw {
     public static void main(String[] args) throws IOException {
 
-        File plik = new File("mojplik.txt"); // tworzy plik
-        plik.createNewFile();
+//        File plik = new File("mojplik.txt"); // tworzy plik
+//        plik.createNewFile()
 
-        Scanner in = new Scanner(plik); //odczyt
-        String tekst = in.nextLine();
-        String tekst2 = in.nextLine();
-        plik.renameTo(new File("plik2.txt"));
-        System.out.println(tekst + "\n" +  tekst2);
-
-
-//        Scanner in = new Scanner( Path.of("mojplik.txt"));
-//
-//
+//        Scanner in = new Scanner(plik); //odczyt
 //        String tekst = in.nextLine();
 //        String tekst2 = in.nextLine();
 //        System.out.println(tekst + "\n" +  tekst2);
+
+
+        Scanner in = new Scanner( Path.of("mojplik.txt"));
+
+
+        String tekst = in.nextLine();
+        String tekst2 = in.nextLine();
+        System.out.println(tekst + "\n" +  tekst2);
 
 
 
